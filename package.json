@@ -3,7 +3,7 @@
   "main": "./lib/flex-tool-bar",
   "version": "1.0.6",
   "description": "Easily Customizable ToolBar for CDE",
-  "repository": "https://github.com/ly1984119/cde-flex-toolbar.git",
+  "repository": "https://github.com/lvyyvl/cde-flex-toolbar.git",
   "license": "MIT",
   "keywords": [
     "toolbar",
