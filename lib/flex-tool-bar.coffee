@@ -66,19 +66,29 @@ module.exports =
 [
   {
     type: "button"
-    icon: "cloud-download"
+    iconset: "devicon"
+    icon: "react-original"
     callback: "CDE Welcome:Create React Native Project"
-    tooltip: "Create a React Native Project"
+    tooltip: "Create React Native Project"
   }
   {
     type: "button"
-    icon: "diff-added"
+    iconset: "mdi"
+    icon: "open-in-new"
+    callback: "application:open-folder"
+    tooltip: "Open Folder in New Window"
+  }
+  {
+    type: "button"
+    iconset: "mdi"
+    icon: "folder-plus"
     callback: "application:add-project-folder"
-    tooltip: "Add Project Folder"
+    tooltip: "Add Folder in Current Window"
   }
   {
     type: "button"
-    icon: "package"
+    iconset: "fa"
+    icon: "code"
     callback: "CDE Component Library:Open"
     tooltip: "Open CDE Component Library"
   }
