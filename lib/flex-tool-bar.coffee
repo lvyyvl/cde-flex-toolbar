@@ -93,6 +93,12 @@ module.exports =
     tooltip: "Open CDE Component Library"
   }
   {
+    type: "button"
+    icon: "list-unordered"
+    callback: "Outline View:Toggle"
+    tooltip: "Outline View"
+  }
+  {
     type: "spacer"
   }
   {
@@ -100,12 +106,6 @@ module.exports =
     icon: "gear"
     callback: "settings-view:open"
     tooltip: "Settings"
-  }
-  {
-    type: "button"
-    icon: "list-unordered"
-    callback: "CDE-Flex-Toolbar:Edit-Config-File"
-    tooltip: "Edit Tool Bar"
   }
 ]
 '''
