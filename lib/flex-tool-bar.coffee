@@ -95,7 +95,7 @@ module.exports =
   {
     type: "button"
     icon: "list-unordered"
-    callback: "Outline View:Toggle"
+    callback: "outline-view:toggle"
     tooltip: "Outline View"
   }
   {
