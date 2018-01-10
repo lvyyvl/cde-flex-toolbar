@@ -73,6 +73,13 @@ module.exports =
   }
   {
     type: "button"
+    iconset: "fa"
+    icon: "tablet"
+    callback: "cde-app-template:open"
+    tooltip: "React Native App Template"
+  }
+  {
+    type: "button"
     iconset: "mdi"
     icon: "open-in-new"
     callback: "application:open-folder"
